@@ -504,7 +504,7 @@ body {
 
 .hero-float-card.card-middle {
   top: 50%;
-  right: -55px;
+  right: -80px;
   animation-delay: 1.2s;
 }
 
@@ -1889,7 +1889,7 @@ section {
   .hero-portrait-frame { max-width: 240px; }
   .hero-float-card { min-width: 130px; padding: 10px 14px; gap: 10px; }
   .hero-float-card.card-top { left: -30px; }
-  .hero-float-card.card-middle { right: -35px; }
+  .hero-float-card.card-middle { right: -55px; }
   .hero-float-card.card-bottom { left: -20px; }
   .hero-float-card .float-text strong { font-size: 1rem; }
   .hero-float-card .float-icon { width: 32px; height: 32px; font-size: 0.9rem; }

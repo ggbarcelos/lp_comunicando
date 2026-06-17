@@ -905,6 +905,12 @@ section {
   gap: 16px;
 }
 
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
 .service-item {
   border-radius: var(--radius-lg);
   padding: 44px 40px;
@@ -2014,7 +2020,7 @@ section {
 
   .services-header { margin-bottom: 28px; }
   .services-header .section-desc { font-size: 0.85rem; }
-  .service-row { grid-template-columns: 1fr; gap: 12px; }
+  .service-grid { grid-template-columns: 1fr; gap: 12px; }
   .service-item { padding: 24px 20px; }
   .service-item--full { grid-template-columns: 1fr; gap: 0; }
   .service-item--full > div:first-child { padding: 24px 20px; }
